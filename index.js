@@ -24,6 +24,8 @@ bot.variables({
 	"tuberCount": "false",
 //extras
 	"tips": "Use \`<prefix>record\` to start!;If you join the main server, you will get a 25% boost on EXP",
+//recordVariables
+  "recordedMinecraft": "false",
 })
 
 //callbacks
