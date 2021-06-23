@@ -3,7 +3,7 @@ require('./server.js');
 const aoijs = require('aoi.js');
 
 const bot = new aoijs.Bot({
-	token: process.env.CLIENT_TOKEN,
+	token: "ODU2MjAwMTYyOTU4Mzc2OTkw.YM9kig.u-jlrtk8oqzCAxiBWBNH9HWtjms",
 	prefix: ["$getServerVar[prefix]", "<@$clientID>"]
 });
 
