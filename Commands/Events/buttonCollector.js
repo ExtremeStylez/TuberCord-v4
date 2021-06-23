@@ -5,9 +5,9 @@ const Command = [{
 	"Minecraft",
 	prototype:
 	"button",
-	code:
+        code:
 	`
-	$interactionReply[;{author:$userTag:$authorAvatar:}{description:Started recording.}{color:763cfe};;0;4]
+	$interactionReply[<@$authorID>;{title:◇ Record | Minecraft:}{description:Recording has started!}{color:763cfe};;0;4]
 	`,
 }, {
 	type:
@@ -18,7 +18,7 @@ const Command = [{
 	"button",
 	code:
 	`
-	$interactionReply[;{author:$userTag:$authorAvatar:}{description:Started recording.}{color:763cfe};;0;4]
+	$interactionReply[<@$authorID>;{title:◇ Record | GTA:}{description:Recording has started!}{color:763cfe};;0;4]
 	`,
 }]
 
